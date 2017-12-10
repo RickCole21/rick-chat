@@ -1,1 +1,1 @@
-# rick-chat
+# a rick chat demo
