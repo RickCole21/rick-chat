@@ -1,0 +1,28 @@
+{
+  "name": "rick-chat",
+  "version": "1.0.0",
+  "description": "a rick chat demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickCole21/rick-chat.git"
+  },
+  "keywords": [
+    "socket.io",
+    "node"
+  ],
+  "author": "RickCole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickCole21/rick-chat/issues"
+  },
+  "homepage": "https://github.com/RickCole21/rick-chat#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "socket.io": "^2.0.4"
+  }
+}
