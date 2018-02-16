@@ -6,9 +6,10 @@ var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var port = process.env.PORT || 80;
 
-server.listen(port, function () {
-  console.log('Server listening at port %d', port);
-});
+// server.listen(port, function () {
+//   console.log('Server listening at port %d', port);
+// });
+server.listen(port, '39.106.24.45');
 
 console.log('static path:', path.join(__dirname, 'public'))
 // Routing
