@@ -8,23 +8,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <ul class="pages">
-    <li class="chat page">
-      <div class="chatArea">
-        <ul class="messages"></ul>
-      </div>
-      <input class="inputMessage" placeholder="请输入内容..."/>
-    </li>
-    <li class="login page">
-      <div class="form">
-        <h3 class="title">您的昵称是?</h3>
-        <input class="usernameInput" type="text" maxlength="14" />
-      </div>
-    </li>
-  </ul>
+<audio controls height="100" width="100">
+  <source src="horse.mp3" type="audio/mpeg">
+  <!--<source src="horse.ogg" type="audio/ogg">-->
+  <embed height="50" width="100" src="happyBirthdayToMe.mp3">
+</audio>
+<ul class="pages">
+  <li class="chat page">
+    <div class="chatArea">
+      <ul class="messages"></ul>
+    </div>
+    <input class="inputMessage" placeholder="请输入内容..."/>
+  </li>
+  <li class="login page">
+    <div class="form">
+      <h3 class="title">您的昵称是?</h3>
+      <input class="usernameInput" type="text" maxlength="14"/>
+    </div>
+  </li>
+</ul>
 
-  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="/main.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/main.js"></script>
 </body>
 </html>
